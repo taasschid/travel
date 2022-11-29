@@ -5,13 +5,13 @@ const data = [
     description:
       "Travel Umroh dan Haji Plus Alhijaz Indowisata didirikan pada tahun 2000 oleh H. Abdullah Djakfar Muksen. Nama Alhijaz sendiri merupakan sebutan untuk kota suci Mekah dan Madinah pada zaman Rasulullah saw. Ijin resmi dari pemerintah Indonesia sebagai travel urmoh resmi berlanjut pada didapatnya lisensi sebagai provider visa umroh bekerjasama dengan muassasah Kerajaan Arab Saudi.",
     imageWide:
-      "https://images.unsplash.com/photo-1612862862126-865765df2ded?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+      "https://images.unsplash.com/photo-1592326871020-04f58c1a52f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80",
     imageTall:
-      "https://images.unsplash.com/photo-1580877854178-95067799acfb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+      "https://images.unsplash.com/photo-1513072064285-240f87fa81e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
     image1:
-      "https://images.unsplash.com/photo-1594391045445-64ea3c6ff16b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+      "https://images.unsplash.com/photo-1589827577276-65d717348780?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     image2:
-      "https://images.unsplash.com/photo-1623262754278-73b95a39b9fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590108589108-3600131de843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2124&q=80",
     facts: [
       "Kami juga terdaftar sebagai member dari organisasi ASITA (Association of the Indonesian Tours and Travel Agencies)",
       "HIMPUH (Himpunan Penyelenggara Umrah dan Haji Khusus)",
