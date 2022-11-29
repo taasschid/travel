@@ -1,9 +1,9 @@
 // Data goes here
 const data = [
   {
-    name: "Sigiriya",
+    name: "Sertifikat",
     description:
-      "Sigiriya or Sinhagiri is an ancient rock fortress located in the northern Matale District near the town of Dambulla in the Central Province, Sri Lanka. The name refers to a site with historical and archaeological significance that is dominated by a massive column of rock around 180 metres high.",
+      "Travel Umroh dan Haji Plus Alhijaz Indowisata didirikan pada tahun 2000 oleh H. Abdullah Djakfar Muksen. Nama Alhijaz sendiri merupakan sebutan untuk kota suci Mekah dan Madinah pada zaman Rasulullah saw. Ijin resmi dari pemerintah Indonesia sebagai travel urmoh resmi berlanjut pada didapatnya lisensi sebagai provider visa umroh bekerjasama dengan muassasah Kerajaan Arab Saudi.",
     imageWide:
       "https://images.unsplash.com/photo-1612862862126-865765df2ded?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
     imageTall:
@@ -13,10 +13,10 @@ const data = [
     image2:
       "https://images.unsplash.com/photo-1623262754278-73b95a39b9fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     facts: [
-      "The citadel on top of Sigiriya was built by King Kasyapa who ruled from 477 to 495 CE. He choose this as his royal residence as he was worried of potential attacks from his brother Moggallana, the rightful heir to the throne. From atop of Sigiriya he had unobstructed views of the surrounding area.",
-      "The rock is 200 metres high and visitors can walk the 1,200 steps, divided amongst a number of staircases, to the top.",
-      "Prior to King Kasyapa using Sigiriya as his residence, it’s thought the rock was a Buddhist monastery. It was once again used as a monastery after Kasyapa’s death till it was abandoned in the 14th century.",
-      "The city includes water gardens, a moat, terraced gardens and archaeological features.",
+      "Kami juga terdaftar sebagai member dari organisasi ASITA (Association of the Indonesian Tours and Travel Agencies)",
+      "HIMPUH (Himpunan Penyelenggara Umrah dan Haji Khusus)",
+      "Serta IATA (International Air Transport Association)",
+      "Kini Alhijaz menjadi salah satu travel umroh kebanggaan umat muslim Indonesia dengan jadwal keberangkatan hampir setiap hari tepat waktu!",
     ],
   },
   
