@@ -879,7 +879,7 @@ model.addEventListener("click", function () {
   imageContainer.innerHTML = "";
   factContainer.innerHTML = "";
   factTitle.innerHTML =
-    'Here are some <span class="factHighlight">fun facts</span> about';
+    'Here are some <span class="factHighlight">highlights/span> about';
 });
 
 closeModel.addEventListener("click", function () {
@@ -889,7 +889,7 @@ closeModel.addEventListener("click", function () {
   imageContainer.innerHTML = "";
   factContainer.innerHTML = "";
   factTitle.innerHTML =
-    'Here are some <span class="factHighlight">fun facts</span> about';
+    'Here are some <span class="factHighlight">highlights</span> about';
 });
 
 window.onscroll = function () {
