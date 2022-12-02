@@ -21,8 +21,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
-    <title>Umroh</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.7/dist/sweetalert2.all.min.js"></script>
+    <title>Roadie</title>
   </head>
   <body>
     <div class="loaderr">
@@ -45,7 +45,7 @@
       </div>
     </div>
     <nav>
-      <a href="./index.html" class="brand-logo">Umroh</a>
+      <a href="./index.html" class="brand-logo">Alhijazku</a>
       <ul class="links">
         <li class="link">
           <b> <a href="#" style="color: #f2870c">Home</a> </b>
@@ -66,7 +66,7 @@
         <div class="headerInfo">
           <h1 class="headerTitle">Paket Umroh <span> Murah</span></h1>
           <div class="headerDescription">
-		  <b> </b><h2> Mau Umroh bareng saya? <br> <br> Mau Umroh sambil traveling? <br> <br> Mau Umroh dapat harga special? <br> Hanya ada di <br>  <br>  <span class="buttonHighlight">AlHijazku.COM</span> </h2>
+		  <h3> Mau Umroh bareng saya? <br>  Mau Umroh sambil traveling? <br> Mau Umroh dapat harga special? <br> Hanya ada di <br>  <span class="buttonHighlight">AlHijazku.COM</span> </h3>
           </div>
           <a href="#places">
             <button class="headerButton">
@@ -84,7 +84,7 @@
           <div class="quote">
             <h4 class="quoteText">
               <i>
-                Yuk Booking Seat! Kumpulin 45 Jemaah, Kita Umroh Bareng di 2023
+                “ Yuk Booking Seat! Kumpulin 45 Jemaah, Kita Umroh Bareng di 2023”
               </i>
             </h4>
             <h4 class="author">– Maulana Jayadi</h4>
@@ -94,19 +94,19 @@
           <div
             class="image wide"
             style="
-              background-image: url(./Images/meccah6.jpg);
+              background-image: url(./Images/meccah2.jpg);
             "
           ></div>
 
           <div
             class="image"
-            style="background-image: url(./Images/meccah1.jpg)"
+            style="background-image: url(./Images/meccah6.jpg)"
           ></div>
 
           <div
             class="image tall"
             style="
-              background-image: url(./Images/meccah2.jpg);
+              background-image: url(./Images/meccah1.jpg);
             "
           ></div>
 
@@ -129,11 +129,14 @@
           ></div>
         </div>
       </div>
-
+      
+      <div>
       <div class="custom-shape-divider-bottom-1630587725">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
+
+          
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
         >
@@ -164,7 +167,7 @@
                     background-size: cover;
                     background-repeat: no-repeat;
                   "
-                >
+                >d
                   <div class="location">
                     <img src="./Images/location.png" />
                     <p class="place">Saudi Arabia</p>
@@ -276,10 +279,183 @@ Kamar di Al Marwa Rayhaan by Rotana-Makkah memiliki tv layar datar, penyejuk uda
         </svg>
       </div>
     </section>
-
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      * {box-sizing: border-box}
+      body {font-family: Verdana, sans-serif; margin:0}
+      .mySlides {display: none}
+      img {vertical-align: middle;}
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+      }
+      </style>
+      </head>
+      <body>
+      
+      <div class="slideshow-container">
+      
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="Images\testimoni 1.jpg" style="width:100%">
+        <div class="text">Testimonial 1</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="Images\testimoni 2.jpg" style="width:100%">
+        <div class="text">Testimonial 2</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="Images\testimoni 3.jpg" style="width:100%">
+        <div class="text">Testimonial 3</div>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      
+      <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+        </body>
+        </div>
+        </section>
+        <section>
+          <div class="custom-shape-divider-bottom-1631607238">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                class="shape-fill"
+              ></path>
+            </svg>
+          </div>
     <section class="blogs">
       <h1 class="blogsTitle" data-aos="fade-up" data-aos-duration="3000">
-        Harga <span class="buttonHighlight"> Umroh</span> dan <span class="buttonHighlight"> Haji </span> 2023
+        Latest <span class="buttonHighlight">Blogs</span>
       </h1>
       <div class="blogsContainer">
         <div class="blogsContent">
@@ -288,10 +464,10 @@ Kamar di Al Marwa Rayhaan by Rotana-Makkah memiliki tv layar datar, penyejuk uda
               src="https://images.unsplash.com/photo-1604928141064-207cea6f571f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80"
             />
             <h3 class="blogTitle">
-              Ibadah Haji menurut Hukum syariatnya
+              6 Days in Tokyo Itinerary: Complete Guide for First-Timers
             </h3>
-            <a href="./BlogPages/ibadah.html"
-              ><button class="readBlog">Baca</button></a
+            <a href="./BlogPages/tokyo.html"
+              ><button class="readBlog">Read</button></a
             >
           </div>
 
@@ -312,7 +488,7 @@ Kamar di Al Marwa Rayhaan by Rotana-Makkah memiliki tv layar datar, penyejuk uda
               src="https://images.unsplash.com/photo-1626091022888-485eb96c494a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
             />
             <h3 class="blogTitle">
-              24 Hours in the city of Kandy, The Heart of Sri Lanka
+              Living 24 Hours in the city of Kandy, The Heart of Sri Lanka
             </h3>
             <a href="./BlogPages/kandy.html"
               ><button class="readBlog">Read</button></a
@@ -329,172 +505,23 @@ Kamar di Al Marwa Rayhaan by Rotana-Makkah memiliki tv layar datar, penyejuk uda
       <div class="funFact" data-aos="fade-up" data-aos-duration="2000">
         <div class="factContent">
           <h1 class="funFactTitle">
-            <span class="highlightText">Testimoni</span> Jamaah
+            <span class="highlightText">Fun Fact</span> Of the Day
           </h1>
+          <p class="fact">
+            Besides the U.S., every developed country in the world extends at
+            least one legally required paid vacation day or holiday to its
+            employees.
+          </p>
+
+          <p class="fact">
+            The most generous country? Austria, which has
+            <span class="highlightTextSec"
+              >a legal minimum of 22 paid vacation days per year</span
+            >, on top of 13 paid holidays!
+          </p>
+        </div>
       </div>
-<section>
-  <div>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-  * {box-sizing: border-box}
-  body {font-family: Verdana, sans-serif; margin:0}
-  .mySlides {display: none}
-  img {vertical-align: middle;}
-  
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-  }
-  </style>
-  </head>
-  <body>
-  
-  <div class="slideshow-container">
-  
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="Images\testimoni 1.jpg" style="width:100%">
-    <div class="text">Testimonial 1</div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="Images\testimoni 2.jpg" style="width:100%">
-    <div class="text">Testimonial 2</div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="Images\testimoni 3.jpg" style="width:100%">
-    <div class="text">Testimonial 3</div>
-  </div>
-  
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-  
-  </div>
-  <br>
-  
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-  </div>
-  
-  <script>
-  let slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  
-  function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-  }
-  </script>
-    </body>
-    </div>
-    </section>
-    <section>
+
       <div class="custom-shape-divider-bottom-1631607238">
         <svg
           data-name="Layer 1"
@@ -509,7 +536,6 @@ Kamar di Al Marwa Rayhaan by Rotana-Makkah memiliki tv layar datar, penyejuk uda
         </svg>
       </div>
     </section>
-
     <title>Umroh MJ Instagram</title>
     <script
       type="module"
@@ -518,50 +544,72 @@ Kamar di Al Marwa Rayhaan by Rotana-Makkah memiliki tv layar datar, penyejuk uda
   </head>
   <body>
     <embed-instagram-feed
-      url="https://v1.nocodeapi.com/umrohqa/instagram/CANidAXXBQdEkzJI"
-    ></embed-instagram-feed>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvhVnBP-dE2YzA8c3TL2e_vbZbRv_O0rUgjm9nXqyS-_EBY6Gx9CAT0L170UFio8H3-lcKb6_-dcm_/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" style="height: 100vh;"></iframe>
-
+    url="https://v1.nocodeapi.com/umrohqa/instagram/CANidAXXBQdEkzJI"
+  ></embed-instagram-feed>
+    <div>
+      <section class="sheet" id="sheet">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvhVnBP-dE2YzA8c3TL2e_vbZbRv_O0rUgjm9nXqyS-_EBY6Gx9CAT0L170UFio8H3-lcKb6_-dcm_/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" style="height: 100vh;"></iframe>
+      </div>
     <footer>
       <div class="footerDetails">
         <div class="footerDescription">
-          <h1 class="footerTitle">Umroh</h1>
+          <h1 class="footerTitle">Alhijazku.com</h1>
           <p class="footerPara">
             Discover New Destinations. See breath-taking places and experience
             them from your device online.
             <br />
-            Our travel writing captures the one thing we always strive to create
-            – incredible travel experiences. From learning about the historical
-            and political context of a destination to finding some really great
-            hikes, each new place has something to discover.
-            <br />
-            We have a passion for storytelling, a knack for putting itineraries
-            together and a strong desire to have fun. Here are all our
-            adventures, our travel tips and our guides.
+            <p class="contactPara">
+              <br> Kantor Pusat:
+              <br>Graha Alhijaz Lt 3
+              <br>Dewi Sartika Cawang
+              <br>Jakarta Timur
+              <br>WA: https://wa.me/81287220541
+              <br>
+              <br>
+              
+              <br> Kantor Cabang:
+              <br>Sentraland Boulevard - Perumnas 2
+              <br>Jl Manggis VI No.5
+              <br>Bogor Barat
+              <br>
+              <br>WA : https://wa.me/6281994796387
+            </p>
           </p>
         </div>
-
+        <html lang="en">
+          <head>
+              <title>Whatsapp Widget</title>
+              <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+              <link rel="stylesheet" href="CSS\whatsapp-widget.css">
+          </head>
+          <body style="background-color: #cecece;">
+              <script src="JS\whatsapp-widget.js"></script>
+              <script>
+                  initWidget()
+              </script>
+          </body>
+      </html>
         <div class="footerContact">
           <h1 class="contactTitle">Contact Me</h1>
           <p class="contactPara">
-            <br> Kantor Pusat:
-            <br>Graha Alhijaz Lt 3
-            <br>Dewi Sartika Cawang
-            <br>Jakarta Timur
-            <br>WA: https://wa.me/81287220541
-            <br>
-            <br>
-            
-            <br> Kantor Cabang:
-            <br>Sentraland Boulevard - Perumnas 2
-            <br>Jl Manggis VI No.5
-            <br>Bogor Barat
-            <br>
-            <br>WA : https://wa.me/6281994796387
+            If you want to make any inquiries about the website, you can contact
+            me through below options
           </p>
           <div class="contactOptions">
             <a
-              href=""
+              href="https://wa.me/81287220541"
+              target="_blank"
+              class="contactOption"
+            >
+              <abbr title="GitHub">
+                <img
+                  src="https://img.icons8.com/ios-glyphs/60/ca7717/github.png"
+                />
+              </abbr>
+            </a>
+            <a
+              href="https://wa.me/6281994796387"
               target="_blank"
               class="contactOption"
             >
@@ -599,8 +647,8 @@ Kamar di Al Marwa Rayhaan by Rotana-Makkah memiliki tv layar datar, penyejuk uda
       <div class="footerCopyright">
         <p>
           This website is designed and developed by
-          <span>Umroh Rumah QA </span> established by 
-          <span>Rumah QA</span>
+          <span>Alhijazku.com </span> and established by 
+          <span>Alhijazku.com</span>
         </p>
       </div>
     </footer>
@@ -615,3 +663,4 @@ Kamar di Al Marwa Rayhaan by Rotana-Makkah memiliki tv layar datar, penyejuk uda
     <script src="./JS/app.js"></script>
   </body>
 </html>
+
